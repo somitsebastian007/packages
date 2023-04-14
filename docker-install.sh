@@ -34,6 +34,8 @@ if [ -z "$CHANNEL" ]; then
 	CHANNEL=$DEFAULT_CHANNEL_VALUE
 fi
 
+docker --version
+
 DEFAULT_DOWNLOAD_URL="https://download.docker.com"
 if [ -z "$DOWNLOAD_URL" ]; then
 	DOWNLOAD_URL=$DEFAULT_DOWNLOAD_URL
