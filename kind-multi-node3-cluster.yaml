@@ -1,5 +1,5 @@
 # three node (two workers) cluster config
-# Run the comand to create cluster => sudo kind create cluster --name k8s-playground --config kind-multi-node-cluster.yaml
+# Run the comand to create cluster => sudo kind create cluster --name k8s-playground --config kind-multi-node3-cluster.yaml
 kind: Cluster
 apiVersion: kind.x-k8s.io/v1alpha4
 nodes:
